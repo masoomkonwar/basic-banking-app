@@ -1,0 +1,11 @@
+.homeinfo{
+    background-image: url("../../assets/banking2.jpg");
+    height: 40rem;
+    max-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.maindiv{
+    font-family: "Times New Roman", Times, serif;
+}

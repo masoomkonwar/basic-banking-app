@@ -1,0 +1,30 @@
+<div class="container p-3 " style="font-family: 'Times New Roman', Times, serif">
+        <div class="text-center py-2 text-light rounded shadow mb-2 " style="background-image: linear-gradient(15deg, #E55D87 0%, #5FC3E4 100%);">
+        
+                <h2 class="text-warning" style="font-family: 'Times New Roman', Times, serif">Transaction history</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                </div>
+                    <table class="table">
+                            <thead class="thead-dark">
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">FROM</th>
+                                <th scope="col">TO</th>
+                                <th scope="col">Ammount</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr *ngFor="let item of result" class="text-white">
+                              <th scope="row">{{item.id}}</th>
+                              <td>{{item.sender}}</td>
+                                <td>{{item.receiver}}</td>
+                              <td class="text-warning">{{item.ammount}}</td>
+                              </tr>
+                            </tbody>
+                          </table>
+            </div>
+           
+</div>
